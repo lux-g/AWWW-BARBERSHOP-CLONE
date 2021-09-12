@@ -1,0 +1,47 @@
+.hero {
+    &__title {
+        font-family: "Roxborough";
+        font-size: 14.7vw;
+        font-weight: 100;
+        line-height: .83;
+        color: $mainWhiteText;
+        text-align: center;
+        margin-top: 9.8%;
+        @media (max-width: 500px) {
+            margin-top: 15vw;
+        }
+    }
+    &__title-godfather {
+        font-family: "Roxborough";
+        font-size: 14.7vw;
+        font-weight: 100;
+        line-height: .83;
+        color: $mainWhiteText;
+        text-align: center;
+    }
+    .title {
+        transform: perspective(400px) rotateX(-60deg); 
+        opacity: 0;
+    }
+    &__title-bottom {
+        font-family: "Roxborough";
+        font-size: 14.7vw;
+        font-weight: 100;
+        line-height: .83;
+        color: $mainWhiteText;
+        text-align: center;
+        transform: perspective(400px) rotateX(-60deg); 
+        opacity: 0;
+    }
+}
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-bottom: -10%;
+    img {
+        width: 60%;
+        z-index: -1;
+    }
+}

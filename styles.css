@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "Roxborough";
+  src: url("./fonts/Roxborough CF.ttf");
+}
+
+@font-face {
+  font-family: "GT-LIGHT";
+  src: url("./fonts/GT America Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  mix-blend-mode: difference;
+  z-index: 10;
+}
+
+@media (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+}
+
+nav {
+  margin-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4vw;
+}
+
+nav a {
+  margin: 0px 10px;
+  font-size: 1vw;
+  text-decoration: none;
+  color: #FFFDED;
+  font-family: "GT-LIGHT";
+  letter-spacing: 1.5px;
+  color: #FFFDED;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+nav a:hover {
+  color: #6F6E67;
+}
+
+nav h1 {
+  font-family: "Roxborough";
+  color: #FFFDED;
+}
+
+.mobile {
+  position: absolute;
+  top: 3vw;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.mobile h1 {
+  font-family: "Roxborough";
+  color: #FFFDED;
+  font-size: 4vw;
+}
+
+@media (max-width: 700px) {
+  .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0px 5vw;
+  }
+}
+
+.fa-bars {
+  color: #FFFDED;
+  cursor: pointer;
+}
+
+.hero__title {
+  font-family: "Roxborough";
+  font-size: 14.7vw;
+  font-weight: 100;
+  line-height: .83;
+  color: #FFFDED;
+  text-align: center;
+  margin-top: 9.8%;
+}
+
+@media (max-width: 500px) {
+  .hero__title {
+    margin-top: 15vw;
+  }
+}
+
+.hero__title-godfather {
+  font-family: "Roxborough";
+  font-size: 14.7vw;
+  font-weight: 100;
+  line-height: .83;
+  color: #FFFDED;
+  text-align: center;
+}
+
+.hero .title {
+  -webkit-transform: perspective(400px) rotateX(-60deg);
+          transform: perspective(400px) rotateX(-60deg);
+  opacity: 0;
+}
+
+.hero__title-bottom {
+  font-family: "Roxborough";
+  font-size: 14.7vw;
+  font-weight: 100;
+  line-height: .83;
+  color: #FFFDED;
+  text-align: center;
+  -webkit-transform: perspective(400px) rotateX(-60deg);
+          transform: perspective(400px) rotateX(-60deg);
+  opacity: 0;
+}
+
+.image-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -5%;
+  margin-bottom: -10%;
+}
+
+.image-wrapper img {
+  width: 60%;
+  z-index: -1;
+}
+
+.page2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.page2 p {
+  color: #FFFDED;
+  font-family: "Roxborough";
+  text-align: center;
+  font-size: 1.8vw;
+  margin-bottom: 10px;
+}
+
+.page2 .owner {
+  font-size: 1.2vw;
+  margin-bottom: 50px;
+}
+
+.about p {
+  font-size: 2.43056vw;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.page3 {
+  position: relative;
+}
+
+.page3 img {
+  width: 54%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.page3 .right-side {
+  width: 37.5vw;
+  position: absolute;
+  top: 20%;
+  left: 53.60%;
+  font-size: 2.08333vw;
+  color: #FFFDED;
+}
+
+.page3 .right-side__name {
+  text-transform: uppercase;
+  font-family: "GT-LIGHT";
+  margin-bottom: .85vw;
+}
+
+.page3 .right-side__founder {
+  color: #8A8981;
+  text-transform: uppercase;
+}
+
+.page3 .right-side__director {
+  color: #8A8981;
+  margin-bottom: 2vw;
+  text-transform: uppercase;
+}
+
+.family {
+  padding: 11vw;
+}
+
+.family .fam {
+  font-size: 4.86111vw;
+  line-height: .9;
+  color: #FFFDED;
+  font-family: "Roxborough";
+  text-align: center;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+.barbers-image-container img {
+  width: 100%;
+  scale: 1.6;
+}
+
+.barber3 {
+  margin-top: 4vw;
+  position: relative;
+}
+
+.barber3 .right-side-image .barber3-img {
+  float: right;
+  width: 54%;
+}
+
+.barber3 .left-side {
+  width: 37.5vw;
+  position: absolute;
+  top: 38%;
+  right: 42%;
+  font-size: 2.08333vw;
+  color: #FFFDED;
+}
+
+.barber3 .left-side__name {
+  text-transform: uppercase;
+  font-family: "GT-LIGHT";
+  margin-bottom: .85vw;
+}
+
+.barber3 .left-side__barber {
+  color: #8A8981;
+  text-transform: uppercase;
+}
+
+.barber3 .left-side__manager {
+  color: #8A8981;
+  margin-bottom: 2vw;
+  text-transform: uppercase;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #151515;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=styles.css.map */

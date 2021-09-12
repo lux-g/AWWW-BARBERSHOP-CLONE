@@ -1,0 +1,11 @@
+.family {
+    padding: 11vw;
+    .fam {
+        font-size: 4.86111vw;
+        line-height: .9;
+        color: $mainWhiteText;
+        font-family: "Roxborough";
+        text-align: center;
+        transition: all 400ms ease-in-out;
+    }
+}

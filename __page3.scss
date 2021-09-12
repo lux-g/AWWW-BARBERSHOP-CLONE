@@ -1,0 +1,29 @@
+.page3 {
+    position: relative;
+    img {
+        width: 54%;
+        object-fit: contain;
+    }
+    .right-side {
+        width: 37.5vw;
+        position: absolute;
+        top: 20%;
+        left: 53.60%;
+        font-size: 2.08333vw;
+        color: $mainWhiteText;
+        &__name {
+            text-transform: uppercase;
+            font-family: "GT-LIGHT";
+            margin-bottom: .85vw;
+        }
+        &__founder {
+            color: #8A8981;
+            text-transform: uppercase;
+        }
+        &__director {
+            color: #8A8981;
+            margin-bottom: 2vw;
+            text-transform: uppercase;
+        }
+    }
+}

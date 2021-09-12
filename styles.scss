@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Roxborough";
+    src: url('./fonts/Roxborough\ CF.ttf');
+}
+@font-face {
+    font-family: "GT-LIGHT";
+    src: url('./fonts/GT\ America\ Regular.otf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//VARIABLES
+$mainWhiteText: #FFFDED;
+$textDarker: #6F6E67;
+
+//IMPORTS
+@import './_nav';
+@import './_hero';
+@import './_about';
+@import './_page3';
+@import './_family';
+@import './_barbers';
+@import './_barber3';
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #151515;
+    overflow-x: hidden;
+}
+
